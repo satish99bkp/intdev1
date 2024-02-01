@@ -6,6 +6,7 @@ import LoginModal from "../../components/loginModal";
 const Home = () => {
   return (
     <div className={style.page}>
+      <button className="primary"> Open Modal</button>
       <LoginModal />
     </div>
   );

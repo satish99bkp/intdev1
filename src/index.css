@@ -22,3 +22,24 @@ button {
   cursor: pointer;
   padding: 10px;
 }
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--Base-White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 311px;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+button.primary {
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--Primary-600, #7f56d9);
+  background: var(--Primary-600, #7f56d9);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
