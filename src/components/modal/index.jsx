@@ -7,6 +7,7 @@ const userImg =
 const Modal = () => {
   return (
     <div className={style.modal}>
+      
       <div className={style.header}>
         <div className={style.title}>Add your team members</div>
         <div className={style.subtitle}>
