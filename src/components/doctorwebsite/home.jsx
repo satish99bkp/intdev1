@@ -6,7 +6,15 @@ const logo3="https://cdn1.vectorstock.com/i/thumb-large/94/50/woman-paramedic-he
 const logo4="https://www.fellowshippersonalstatement.com/wp-content/uploads/2014/08/interventional-cardiology-fellowship.png";
 const logo5="https://static.vecteezy.com/system/resources/previews/000/425/149/non_2x/vector-bed-icon.jpg";
 const url2="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/e/136937/files/2016/06/Patient_Provider-300x200.jpg";
+const logo6="https://www.siamdevelopment.com/wp-content/uploads/2022/01/Medical-Device-Registration-in-Thailand.jpg";
 const url1="https://img.freepik.com/free-vector/doctor-consultation-online-smartphone-chat-physician-web-template_74855-9095.jpg?w=360&t=st=1707134364~exp=1707134964~hmac=dd0f585e1cfaf96430b5477a7d1c93950a70dc3c54494a3aa2b45392c2c09922";
+const url3="https://landaspine.com/site/uploads/2020/08/doctor-3-214x300.png";
+
+const url7="https://s3.amazonaws.com/freebiesupply/large/2x/facebook-logo-circle-transparent.png";
+const url8="https://th.bing.com/th/id/R.37450e5112961120dcb779170753b237?rik=FxuYj3bobzn%2fJQ&riu=http%3a%2f%2fwww.bykoket.com%2fimages%2fft_googleplus-b.png&ehk=3YR6wCf9cxUoqHytSHdvLMJD6cX9I48psZEP6fUnNpU%3d&risl=&pid=ImgRaw&r=0";
+const url9="https://www.alpinepeds.com/images/linkedin_logo.jpg";
+const url10="https://www.mousegraphics.eu/media/social-twitter-hover.png";
+
 const HomePage = () => {
   return (
     <div className={style.home}>
@@ -81,8 +89,89 @@ const HomePage = () => {
                             </div>
                         </div>
                         <img src={url2} alt="url2" className={style.docimage2}/>
+                        <img src={logo6} alt="logo6" className={style.docimage3}/>
                 </div>
             </div>
+
+            <div className={style.bodypart3}>
+                <div className={style.head3}>
+                        <div className={style.header4}>
+                            <div className={style.subheader2}>
+                                    <div className={style.subtitle6}>Our Expert Team</div>
+                                    <div className={style.subtitle7}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia architecto id impedit illum nesciunt veniam cupiditate ducimus dolorem odio maxime.</div>
+                                    
+                            </div>
+                        </div>
+                        <div className={style.docimageRef}>
+                            <div className={style.docName}><img src={url3} alt="url3" className={style.docimage4}/><h3>Patrick Cortez</h3><h3 id={style.d1}>Doctor</h3>
+                              <div className={style.medialink}>
+                                <div><img src={url7} alt="url7" className={style.docimage8}/></div>
+                                <div><img src={url8} alt="url8" className={style.docimage9}/></div>
+                                <div><img src={url9} alt="url9" className={style.docimage10}/></div>
+                                <div><img src={url10} alt="url10" className={style.docimage11}/></div>
+                              </div>
+                            </div>
+                            <div className={style.docName}><img src={url3} alt="url3" className={style.docimage4}/><h3>Patrick Cortez</h3><h3 id={style.d1}>Doctor</h3>
+                              <div className={style.medialink}>
+                                <div><img src={url7} alt="url7" className={style.docimage8}/></div>
+                                <div><img src={url8} alt="url8" className={style.docimage9}/></div>
+                                <div><img src={url9} alt="url9" className={style.docimage10}/></div>
+                                <div><img src={url10} alt="url10" className={style.docimage11}/></div>
+                              </div>
+                            </div>
+                            <div className={style.docName}><img src={url3} alt="url3" className={style.docimage4}/><h3>Patrick Cortez</h3><h3 id={style.d1}>Doctor</h3>
+                              <div className={style.medialink}>
+                                <div><img src={url7} alt="url7" className={style.docimage8}/></div>
+                                <div><img src={url8} alt="url8" className={style.docimage9}/></div>
+                                <div><img src={url9} alt="url9" className={style.docimage10}/></div>
+                                <div><img src={url10} alt="url10" className={style.docimage11}/></div>
+                              </div>
+                            </div>
+                            <div className={style.docName}><img src={url3} alt="url3" className={style.docimage4}/><h3>Patrick Cortez</h3><h3 id={style.d1}>Doctor</h3>
+                              <div className={style.medialink}>
+                                <div><img src={url7} alt="url7" className={style.docimage8}/></div>
+                                <div><img src={url8} alt="url8" className={style.docimage9}/></div>
+                                <div><img src={url9} alt="url9" className={style.docimage10}/></div>
+                                <div><img src={url10} alt="url10" className={style.docimage11}/></div>
+                              </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+            <div className={style.bodypart4}>
+                
+                        <div className={style.header5}>
+                            <div className={style.subheader3}>
+                                    <p className={style.heading}>Make an Appointment</p>                                   
+                            </div>
+
+                            
+                            <form className={style.info5}>
+                                    <div className={style.input1}>
+                                        <div ><input type='text' placeholder='Full Name' className={style.inputfield1}/></div>
+                                        <div ><input type='text' placeholder='Email' className={style.inputfield2}/></div>
+                                    </div>
+                                    <div className={style.input2}>
+                                        <div ><input type='text' placeholder='Phone Number'className={style.inputfield3}/></div>
+                                        <div ><input type='text' placeholder='Department'className={style.inputfield4}/> </div>                                   
+                                    </div>
+
+                                    <div className={style.input3}>
+                                        <div ><input type='text' placeholder='Additional Information'className={style.inputfield5}/></div>
+                                        <div ><input type='text' placeholder='Date and Time'className={style.inputfield6}/></div>                                    
+                                    </div>
+                            </form>
+                           
+                        
+                        </div>           
+                        
+                       
+                        <div className={style.confirmbutton}> <button id={style.button1} >Confirm</button> </div>                     
+                       
+                
+            </div>
+
         </div>
 
     </div>
