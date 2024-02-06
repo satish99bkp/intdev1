@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./style.module.scss";
-import { useState } from "react";
 
 const img =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTupSJNkbtOCDgsY3Vra0ISaT9Ywt70SdQQQ&usqp=CAU";
@@ -10,12 +9,7 @@ const crossimg =
 const LoginModal = ({ toggleModal }) => {
   return (
     <div className={style.loginModal}>
-      <img
-        src={crossimg}
-        alt="deleteimg"
-        className={style.closeBtn}
-        onClick={() => toggleModal()}
-      />
+      <img src={crossimg} alt="deleteimg" className={style.closeBtn} onClick={() => toggleModal()} />
       <div className={style.header}>
         <div className={style.logo}>
           <img src={img} alt="lockimg" className={style.img} />

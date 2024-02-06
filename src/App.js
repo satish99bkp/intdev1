@@ -1,12 +1,20 @@
 import React from "react";
-import { Router, Route } from "react-router-dom";
 import Home from "./pages/home";
+// import Item from "./components/cart/Item";
+// import Cart from "./components/cart/Cart";
+
+
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Route path="/" component={Home} />
-      </Router>
+    <div className="App">
+      
+        <Home />
+        {/* <Item name="MacBook Pro" price={500}/>
+        <Item name="iPhone Pro" price={400}/>
+        <Item name="PenDrive" price={50}/>
+        <Cart/> */}
+        
+      
     </div>
   );
 };

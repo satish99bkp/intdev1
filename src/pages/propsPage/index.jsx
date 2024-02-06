@@ -4,8 +4,8 @@ const Context = createContext(null);
 
 const PropsPage = () => {
   const data = {
-    name: "Pranjal",
-    title: "Tiawri",
+    name: "Satish",
+    title: "Singh",
   };
 
   return (
