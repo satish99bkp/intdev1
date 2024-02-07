@@ -15,7 +15,15 @@ const url8="https://th.bing.com/th/id/R.37450e5112961120dcb779170753b237?rik=Fxu
 const url9="https://www.alpinepeds.com/images/linkedin_logo.jpg";
 const url10="https://www.mousegraphics.eu/media/social-twitter-hover.png";
 
+const url11="https://www.dypatiledu.com/assets/img/details-dy/hhm.png";
+const url12="https://www.parentalquestions.com/wp-content/uploads/2020/09/surgery-1807541_1280-300x198.jpg";
+const url13="https://jobs.methodisthealthsystem.org/media/1371/career-advancement_720x495.jpg?anchor=center&mode=crop&width=720&height=495&rnd=132422267560000000";
+
+
 const HomePage = () => {
+    const year=new Date().getFullYear();
+    const currDay = new Date().getDate();
+    const currMonth = new Date().toLocaleString([], {month: 'long',});
   return (
     <div className={style.home}>
         <div className={style.header}>
@@ -172,6 +180,80 @@ const HomePage = () => {
                 
             </div>
 
+            <div className={style.bodypart5}>
+                <div className={style.head5}>
+                        <div className={style.header6}>
+                            <div className={style.subheader4}>
+                                    <div className={style.subtitle8}>News & Events</div>
+                                    <div className={style.subtitle9}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia architecto id impedit illum nesciunt veniam cupiditate ducimus dolorem odio maxime.</div>
+                                    
+                            </div>
+                        </div>
+                        <div className={style.docimageRef1}>
+                            <div className={style.docimageRef2}>
+                                <div className={style.docimage11}>
+                                    <img src={url11} alt="url11" className={style.img11}/>
+                                    <div className={style.comments}><div>{currMonth.slice(0,3)} {currDay},{year}</div><div>3 Comments</div></div>
+                                    <p className={style.discription}>The lpsum is simply dummy text of the printing</p>
+                                    <p className={style.subdiscription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nulla sint assumenda.</p>
+                                </div>
+                                <div className={style.docimage12}>
+                                    <img src={url12} alt="url12" className={style.img12}/>
+                                    <div className={style.comments}><div>{currMonth.slice(0,3)} {currDay},{year}</div><div>3 Comments</div></div>
+                                    <p className={style.discription}>The lpsum is simply dummy text of the printing</p>
+                                    <p className={style.subdiscription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nulla sint assumenda.</p>
+                                </div>
+                                <div className={style.docimage13}>
+                                    <img src={url13} alt="url13" className={style.img13}/>
+                                    <div className={style.comments}><div>{currMonth.slice(0,3)} {currDay},{year}</div><div>3 Comments</div></div>
+                                    <p className={style.discription}>The lpsum is simply dummy text of the printing</p>
+                                    <p className={style.subdiscription}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nulla sint assumenda.</p>
+                                </div> 
+                            </div>      
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div className={style.footer}>
+            <div className={style.contents}>
+                <div className={style.foundation}>
+                    <div className={style.heading1}>Medisite</div>
+                    <div className={style.subheading1}>When stan Britten established BritKare in 1995, he did so with true desire to assist the medical community with quality care of their desire.</div>
+
+                </div>
+                <div className={style.link}>
+                    <div className={style.heading2}>LINKS</div>
+                    <div className={style.subheading2}>
+                        <li>Service Areas</li>
+                        <li>Blogs</li>
+                        <li>Abouts</li>
+                        <li>Contacts</li>
+                        <li>Solutions</li>
+                        
+                    </div>
+
+                </div>
+                <div className={style.contacts}>
+                    <div className={style.heading3}>CONTACT</div>
+                    <div className={style.detailcontacts}>
+                        <div className={style.address}>777, seventh avenue ,India ,NE 5849</div>
+                        <div className={style.phonenumber1}>+788-698- 758</div>
+                        <div className={style.phonenumber2}>+788-698- 758</div>
+                        <div className={style.email}>yourwebsite@gmail.com</div>
+                    </div>
+                </div>
+                <div className={style.socialMedia}>
+                    <div className={style.heading4}>Follow us on</div>
+                        <div className={style.google}></div>
+                        <div className={style.facebook}></div>
+                </div>
+            </div>
+
+            <div className={style.copyright}>
+                <div className={style.rights}>Copyright &copy; {year} All Right Reserved.</div>
+            </div>
         </div>
 
     </div>

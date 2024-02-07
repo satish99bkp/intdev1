@@ -341,16 +341,20 @@
                         // border: 0.1rem solid black;
                          display: flex;
                          justify-content: space-between;
+                         
                          .inputfield1{
-                            border: 0.1rem solid black;
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                             padding: 10px;
+                            background: transparent;
                          }
                          .inputfield2{
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                              padding: 10px;
+                             background: transparent;
                          }                               
                     }
                     .input2 {
@@ -358,29 +362,37 @@
                          display: flex;
                          justify-content: space-between;
                          .inputfield3{
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                             padding: 10px;
+                            background: transparent;
                          }                              
                          .inputfield4{
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                             padding: 10px;
+                            background: transparent;
                          }                              
                     }
                     .input3 {
                          display: flex;
                          justify-content: space-between;
                          .inputfield5{
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                             padding: 10px;
+                            background: transparent;
                          } 
 
                          .inputfield6{
+                            border: 0.1rem solid rgba(0, 0, 0, 0.274);
                             margin: 8px 0px 8px 0px;
                             width: 280px;
                             padding: 10px;
+                            background: transparent;
                             
                          }                              
                     }
@@ -391,7 +403,7 @@
         }
 
         .confirmbutton{
-            // border: 0.1rem solid black;
+           
             display: flex;
             justify-content: center;
             #button1{
@@ -403,6 +415,189 @@
         }
     }
 
-    
+    .bodypart5{
+        margin-top: 80px;
+        
+            .header6 .subheader4{
+                    // border: 0.1rem solid black;
+                    color: #000;
+                    text-align: center;
+                    .subtitle8{
+                        font-size: larger;
+                        font-weight: bolder;
+                    }
+                    .subtitle9{
+                        font-size: small;
+                        padding: 4px 150px 4px 150px;
+                    }
+                }
+
+            .docimageRef1{
+                // border: 0.1rem solid black;
+                padding: 0px 120px;
+                
+                .docimageRef2{
+                    display: flex;
+                    justify-content: space-between;                   
+                    //  border: 0.1rem solid black;
+                    
+                    .docimage11{
+                        // border: 0.1rem solid black;
+                        background: #fff;
+                        .img11{
+                            max-width: 31vh;
+                            
+
+                        }
+                        .comments{
+                            display: flex;
+                            color: #000;
+                            justify-content: space-between;
+                            font-size: 12px;
+                            padding: 0px 4px;
+
+                        }
+                        .discription{
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 600;
+
+                        }
+                        .subdiscription{
+                            color: #000;
+                            font-size: 12px;
+
+                        }
+                    }
+
+                    .docimage12{
+                        //  border: 0.1rem solid black;
+                       
+                        background: #fff;
+                        .img12{
+                            // margin: 0px;
+                            max-width: 31vh;
+                            
+                            // border: 0.1rem solid black;
+                            
+                           
+                        }
+                        .comments{
+                            margin-top: 7px;
+                            display: flex;
+                            color: #000;
+                            justify-content: space-between;
+                            font-size: 12px;
+                            padding: 0px 4px;
+
+                        }
+                        .discription{
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 600;
+
+                        }
+                        .subdiscription{
+                            color: #000;
+                            font-size: 12px;
+
+                        }
+                    }
+                    .docimage13{
+                        //  border: 0.1rem solid black;
+                        background: #fff;
+                        .img13{
+                            max-width: 31vh;
+                            
+                        }
+                        .comments{
+                            display: flex;
+                            color: #000;
+                            justify-content: space-between;
+                            font-size: 12px;
+                            padding: 0px 4px;
+
+                        }
+                        .discription{
+                            color: #000;
+                            font-size: 18px;
+                            font-weight: 600;
+
+                        }
+                        .subdiscription{
+                            color: #000;
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+            
+         
+        
+    }
 }
-  
+ 
+.footer{
+    margin-top: 80px;
+    color: #fff;
+    background: #61daf0;
+    .contents{
+        // border: 0.1rem solid black;
+        margin: 0px 80px 0px 20px;
+        display: flex;
+        .foundation{
+            // border: 0.1rem solid black;
+            width: 300px;
+            .heading1{
+                font-size: larger;
+                font-weight: 300;
+
+            }
+            .subheading1{
+                font-size: small;
+
+            }
+
+        }
+    }
+    .link{
+        // border: 0.1rem solid black;
+        width:150px ;
+        .heading2{
+            // border: 0.1rem solid black;
+            font-size: larger;
+            
+        }
+        .subheading2{
+            // border: 0.1rem solid black;
+            font-size: small;
+        }
+    }
+
+    .contacts{
+        // border: 0.1rem solid black;
+        .heading3{
+            font-size: larger;
+        }
+        .detailcontacts{
+            font-size: small;
+        }
+    }
+    .socialMedia{
+        // border: 0.1rem solid black;
+        width: 150px;
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+        .rights{
+            margin-bottom: 30px;
+            font-size: small;
+        }
+    }
+
+}
