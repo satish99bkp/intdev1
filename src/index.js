@@ -1,22 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App";
-
-// import {CartProvider} from "./context/Cartcontext";
-import Home from "./pages/home";
-// import PropsPage from "./pages/propsPage";
-
-
-
+import HomePage from "./pages/doctorwebsite/home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <CartProvider>
-      <App />
-    </CartProvider> */}
-   <Home />
-    {/* <PropsPage /> */}
+    <HomePage />
   </React.StrictMode>,
 );
