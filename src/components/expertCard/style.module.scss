@@ -1,13 +1,13 @@
 .container {
   
-   border: 0.1rem solid black;
+  //  border: 0.1rem solid black;
   text-align: center;
- 
+  width: 28%;
   object-fit: cover;
   .docimage {
-    //  border: 0.1rem solid black;
+    // border: 0.1rem solid black;
     background: #c3f8e5;
-    width: 18em;
+    width: 50%;
    
   }
 
@@ -17,9 +17,10 @@
 
   .medialink {
     display: flex;
-    justify-content: space-evenly;
-   
-   
+    // justify-content: center;
+    //  border: 0.1rem solid black;
+    margin-left: 35%;
+     width: 28%;
     .facebook {
       width: 20px;
       background: #f8eded62;

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+:root{
+  --bs-dark-color:#1a1d20;
+  --bs-dark-primary:#1c1c1c;
+  --bs-main-color:#fff;
+  /* --bs-dark-color:#c6c6c6; */
+  --secondary-color:#29a9fd;
+  --bs-supporting-color:#c850c0;
+  --bs-primary-color:rgba(216, 205, 205, 0.836);
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Lexend Deca", sans-serif;
+  color:var(--bs-dark-color);
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+h2{
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+p{
+  margin:0;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--bs-dark-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+button, a{
+    font-size: 1rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+/* navbar style */
+.nav-link{
+    color: var(--bs-main-color);
+}
+.nav-link:hover{
+    color: var(--secondary-color);
+}
+
+/* Hero section start */
+.hero-section .container{
+    /* border: 0.1rem solid black; */
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+.text-light-gray{
+    color: var(--bs-primary-color);
+}
+.hero-img-section{
+    height: auto;
+    width: 50%;
+    /* border: 0.1rem solid black; */
+    border-radius: 2rem;
+  }
+
+  .custom-shape-divider-bottom-1707755422 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707755422 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1707755422 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Services Section */
+.services-section{
+    /* border: 0.1rem solid black; */
+    padding: 6rem 3rem 0!important;
+}
