@@ -1,0 +1,67 @@
+.contents {
+    // border: 0.1rem solid black;
+    margin:30px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    .foundation {
+      // border: 0.1rem solid black;
+      width: 300px;
+      .heading1 {
+        font-size: larger;
+        font-weight: 300;
+      }
+      .subheading1 {
+        font-size: small;
+      }
+    }
+  }
+  .link {
+    // border: 0.1rem solid black;
+    width: 150px;
+    .heading2 {
+      // border: 0.1rem solid black;
+      font-size: larger;
+    }
+    .subheading2 {
+      // border: 0.1rem solid black;
+      font-size: small;
+    }
+  }
+
+  .contacts {
+    // border: 0.1rem solid black;
+    .heading3 {
+      font-size: larger;
+    }
+    .detailcontacts {
+      font-size: small;
+    }
+  }
+  .socialMedia {
+    text-align: center;
+     .logowrapper{
+      display: flex;
+      justify-content: space-around;
+      .googlelogo{
+        display: block;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+      }
+      .facebooklogo{
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .rights {
+      margin-bottom: 30px;
+      font-size: small;
+    }
+  }

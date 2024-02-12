@@ -1,0 +1,48 @@
+.container {
+  
+   border: 0.1rem solid black;
+  text-align: center;
+ 
+  object-fit: cover;
+  .docimage {
+    //  border: 0.1rem solid black;
+    background: #c3f8e5;
+    width: 18em;
+   
+  }
+
+  #d1 {
+    color: rgb(93, 241, 241);
+  }
+
+  .medialink {
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+    .facebook {
+      width: 20px;
+      background: #f8eded62;
+      // border: 0.1rem solid black;
+      border-radius: 10px;
+    }
+    .google {
+      width: 20px;
+      background: #f8eded62;
+      // border: 0.1rem solid black;
+      border-radius: 10px;
+    }
+    .linkdin {
+      width: 20px;
+      background: #6e1a1a62;
+      // border: 0.1rem solid black;
+      border-radius: 10px;
+    }
+    .twitter {
+      width: 20px;
+      background: #f8eded62;
+      // border: 0.1rem solid black;
+      border-radius: 10px;
+    }
+  }
+}

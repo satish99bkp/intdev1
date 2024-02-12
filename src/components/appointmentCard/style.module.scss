@@ -1,0 +1,92 @@
+.title {
+  margin: 0px 120px;
+//  border: 0.1rem solid black;
+  text-align: center;
+  padding: 10px 40px;
+  background: #9af1d1;
+
+  .heading {
+    color: #000;
+    font-size: large;
+    font-weight: bolder;
+  }
+}
+
+.infoWrapper {
+    margin: 20px 120px 20px 120px;
+    // border: 0.1rem solid black;
+
+    .Nameidwrapper {
+      //  border: 0.1rem solid black;
+      display: flex;
+      justify-content: space-between;
+
+      .name {
+         border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+      .email {
+        border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+    }
+    .numberDepWrapper {
+      display: flex;
+      justify-content: space-between;
+      .mobNumber {
+        border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+      .department {
+        border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+    }
+    .dateinfoWrapper {
+      display: flex;
+      justify-content: space-between;
+      .genInfo {
+        border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+
+      .dateTime {
+        border: 0.1rem solid rgba(0, 0, 0, 0.274);
+        margin: 8px 0px 8px 0px;
+        width: 20vw;
+        padding: 1em;
+        background: transparent;
+      }
+    }
+  }
+
+  .confirmbutton {
+    // border: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0px 120px;
+   
+    #button {
+      // border: 0.1rem solid black;
+      color: #fff;
+      background: #57ebb4;
+      width: 20%;
+      height: 10%;
+      word-wrap: break-word;
+    }
+  }

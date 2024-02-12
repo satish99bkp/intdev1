@@ -1,0 +1,78 @@
+.headerWrapper {
+  background: rgb(93, 225, 243);
+
+  .header {
+    .title {
+      padding: 0px 120px;
+      display: flex;
+      font-size: 2em;
+      .subtitle {
+        margin-left: auto;
+        padding-top: 4px;
+        display: flex;
+        font-size: 0.5em;
+
+        .h {
+          padding: 0px 8px;
+        }
+      }
+    }
+  }
+
+  .headcontentWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    .header {
+      margin-top: 100px;
+     
+      padding: 0px 0px 0px 120px;
+      .subheader {
+        display: block;
+        .subtitle {
+          font-size: 2em;
+        }
+        .discription {
+          font-size: 1em;
+        }
+      }
+
+      .buttonWrapper {
+        display: flex;
+        //  border: 0.1rem solid black;
+        margin-top: 30px;
+        width: 40%;
+        .Infobutton {
+          font-size: 1em;
+          padding: 8px;
+          //  border: 0.1rem solid black;
+          color: #000;
+          background-color: #88f5cd;
+          margin: 2px;
+          width: 50%;
+          height: 30%;
+          word-wrap: break-word;
+        }
+        .button {
+          font-size: 1em;
+          padding: 8px;
+          // border: 0.1rem solid black;
+          color: #000;
+          background-color: #fff;
+          margin: 2px;
+          height: 30%;
+          word-wrap: break-word;
+        }
+      }
+    }
+
+    .docimage {
+      margin-top: 80px;
+      margin-right: 120px;
+      border-radius: 8px;
+      width: 20vw;
+      height: 50vh;
+    }
+  }
+}

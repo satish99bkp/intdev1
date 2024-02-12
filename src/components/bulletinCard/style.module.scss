@@ -1,0 +1,112 @@
+
+.headerWrapper{
+    // border: 0.1rem solid black;
+    color: #000;
+    text-align: center;
+
+    .header{
+      font-size: larger;
+      font-weight: bolder;
+      background:transparent;
+    }
+    .discription {
+      font-size: small;
+      padding: 4px 150px 4px 150px;
+    }
+  }
+
+  
+
+    .contentWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 2px;
+      padding: 0px 120px;
+
+      .wrapper1{
+        
+       .docImage {
+        
+        background: #fff;
+        
+        .img {
+          
+          width: 27vw;
+          
+        }
+        .comments {
+          
+          display: flex;
+          color: #000;
+          justify-content: space-between;
+          font-size: 12px;
+          padding: 0px 4px;
+        }
+        .discription {
+          margin-top: 2em;
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .subdiscription {
+          color: #000;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .wrapper2{
+      .docImage {
+        background: #fff;
+        .img {
+         
+           width: 27vw;
+        }
+        .comments {
+          margin-top: 7px;
+          display: flex;
+          color: #000;
+          justify-content: space-between;
+          font-size: 12px;
+          padding: 0px 4px;
+        }
+        .discription {
+          margin-top: 2em;
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .subdiscription {
+          color: #000;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .wrapper3{
+      .docImage {
+        
+        background: #fff;
+        .img {
+           width: 27vw;
+        }
+        .comments {
+          display: flex;
+          color: #000;
+          justify-content: space-between;
+          font-size: 12px;
+          padding: 0px 4px;
+        }
+        .discription {
+          margin-top: 2em;
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .subdiscription {
+          color: #000;
+          font-size: 12px;
+        }
+      }
+     } 
+    }
